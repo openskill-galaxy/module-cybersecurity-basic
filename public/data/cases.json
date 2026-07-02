@@ -1,0 +1,9882 @@
+[
+  {
+    "id": "se-case-001",
+    "title": "密码存储修复案例1",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000626",
+      "se-q-002142",
+      "se-q-001641"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-002",
+    "title": "登录限流案例2",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003260",
+      "se-q-001165",
+      "se-q-002988"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-003",
+    "title": "JWT安全案例3",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003110",
+      "se-q-000380",
+      "se-q-003391"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-004",
+    "title": "Cookie安全案例4",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000215",
+      "se-q-003096",
+      "se-q-002695"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-005",
+    "title": "SQL注入防御案例5",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000320",
+      "se-q-002472",
+      "se-q-002079"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-006",
+    "title": "XSS编码案例6",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003171",
+      "se-q-000915",
+      "se-q-001743"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-007",
+    "title": "CSRF Token案例7",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001650",
+      "se-q-001135",
+      "se-q-001760"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-008",
+    "title": "文件上传防御案例8",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003651",
+      "se-q-000788",
+      "se-q-001793"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-009",
+    "title": "路径遍历防御案例9",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000323",
+      "se-q-002629",
+      "se-q-001440"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-010",
+    "title": "权限校验案例10",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001471",
+      "se-q-001120",
+      "se-q-003506"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-011",
+    "title": "接口鉴权案例11",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000243",
+      "se-q-003565",
+      "se-q-001492"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-012",
+    "title": "日志审计案例12",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003181",
+      "se-q-002344",
+      "se-q-000877"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-013",
+    "title": "依赖漏洞案例13",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001231",
+      "se-q-003547",
+      "se-q-000603"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-014",
+    "title": "安全测试报告案例14",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002445",
+      "se-q-000298",
+      "se-q-000501"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-015",
+    "title": "应急响应案例15",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003364",
+      "se-q-002977",
+      "se-q-000890"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-016",
+    "title": "后端安全加固案例16",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000738",
+      "se-q-001040",
+      "se-q-003140"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-017",
+    "title": "安全组配置案例17",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000644",
+      "se-q-003018",
+      "se-q-003698"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-018",
+    "title": "安全面试案例18",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002740",
+      "se-q-000346",
+      "se-q-002582"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-019",
+    "title": "密码存储修复案例19",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001528",
+      "se-q-000679",
+      "se-q-000304"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-020",
+    "title": "登录限流案例20",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001011",
+      "se-q-000532",
+      "se-q-002206"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-021",
+    "title": "JWT安全案例21",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003178",
+      "se-q-002553",
+      "se-q-003219"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-022",
+    "title": "Cookie安全案例22",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001230",
+      "se-q-002585",
+      "se-q-002707"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-023",
+    "title": "SQL注入防御案例23",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002098",
+      "se-q-002362",
+      "se-q-001840"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-024",
+    "title": "XSS编码案例24",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001810",
+      "se-q-000916",
+      "se-q-002393"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-025",
+    "title": "CSRF Token案例25",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002253",
+      "se-q-001946",
+      "se-q-000474"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-026",
+    "title": "文件上传防御案例26",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001908",
+      "se-q-001565",
+      "se-q-001500"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-027",
+    "title": "路径遍历防御案例27",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001143",
+      "se-q-001904",
+      "se-q-001380"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-028",
+    "title": "权限校验案例28",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003659",
+      "se-q-002644",
+      "se-q-000764"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-029",
+    "title": "接口鉴权案例29",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000984",
+      "se-q-003660",
+      "se-q-000067"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-030",
+    "title": "日志审计案例30",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003282",
+      "se-q-001613",
+      "se-q-002277"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-031",
+    "title": "依赖漏洞案例31",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001428",
+      "se-q-000705",
+      "se-q-003191"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-032",
+    "title": "安全测试报告案例32",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001042",
+      "se-q-003493",
+      "se-q-001849"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-033",
+    "title": "应急响应案例33",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001236",
+      "se-q-001666",
+      "se-q-000355"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-034",
+    "title": "后端安全加固案例34",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003306",
+      "se-q-002988",
+      "se-q-000055"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-035",
+    "title": "安全组配置案例35",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002003",
+      "se-q-001952",
+      "se-q-002508"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-036",
+    "title": "安全面试案例36",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003121",
+      "se-q-003341",
+      "se-q-003024"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-037",
+    "title": "密码存储修复案例37",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000244",
+      "se-q-000459",
+      "se-q-001780"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-038",
+    "title": "登录限流案例38",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003441",
+      "se-q-001807",
+      "se-q-001420"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-039",
+    "title": "JWT安全案例39",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003364",
+      "se-q-003622",
+      "se-q-003375"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-040",
+    "title": "Cookie安全案例40",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000353",
+      "se-q-002483",
+      "se-q-003026"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-041",
+    "title": "SQL注入防御案例41",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001577",
+      "se-q-000291",
+      "se-q-000769"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-042",
+    "title": "XSS编码案例42",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003167",
+      "se-q-001574",
+      "se-q-001723"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-043",
+    "title": "CSRF Token案例43",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001749",
+      "se-q-001108",
+      "se-q-003481"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-044",
+    "title": "文件上传防御案例44",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001586",
+      "se-q-001856",
+      "se-q-003132"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-045",
+    "title": "路径遍历防御案例45",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003031",
+      "se-q-002586",
+      "se-q-000448"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-046",
+    "title": "权限校验案例46",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001084",
+      "se-q-001544",
+      "se-q-001634"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-047",
+    "title": "接口鉴权案例47",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000718",
+      "se-q-003332",
+      "se-q-000430"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-048",
+    "title": "日志审计案例48",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000869",
+      "se-q-002281",
+      "se-q-002326"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-049",
+    "title": "依赖漏洞案例49",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003277",
+      "se-q-000611",
+      "se-q-000932"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-050",
+    "title": "安全测试报告案例50",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000226",
+      "se-q-002578",
+      "se-q-002421"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-051",
+    "title": "应急响应案例51",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003019",
+      "se-q-001231",
+      "se-q-003490"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-052",
+    "title": "后端安全加固案例52",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003103",
+      "se-q-001374",
+      "se-q-000421"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-053",
+    "title": "安全组配置案例53",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000391",
+      "se-q-000471",
+      "se-q-000725"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-054",
+    "title": "安全面试案例54",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002949",
+      "se-q-000498",
+      "se-q-001100"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-055",
+    "title": "密码存储修复案例55",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003297",
+      "se-q-000020",
+      "se-q-002068"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-056",
+    "title": "登录限流案例56",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002721",
+      "se-q-001226",
+      "se-q-002752"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-057",
+    "title": "JWT安全案例57",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001416",
+      "se-q-000383",
+      "se-q-001970"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-058",
+    "title": "Cookie安全案例58",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002872",
+      "se-q-001253",
+      "se-q-002929"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-059",
+    "title": "SQL注入防御案例59",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001983",
+      "se-q-002151",
+      "se-q-002118"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-060",
+    "title": "XSS编码案例60",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002365",
+      "se-q-000006",
+      "se-q-000538"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-061",
+    "title": "CSRF Token案例61",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003504",
+      "se-q-003223",
+      "se-q-002997"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-062",
+    "title": "文件上传防御案例62",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000798",
+      "se-q-001199",
+      "se-q-001471"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-063",
+    "title": "路径遍历防御案例63",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001648",
+      "se-q-000519",
+      "se-q-002822"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-064",
+    "title": "权限校验案例64",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000527",
+      "se-q-002271",
+      "se-q-001308"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-065",
+    "title": "接口鉴权案例65",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000148",
+      "se-q-003036",
+      "se-q-000969"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-066",
+    "title": "日志审计案例66",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001976",
+      "se-q-000257",
+      "se-q-002455"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-067",
+    "title": "依赖漏洞案例67",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003618",
+      "se-q-001437",
+      "se-q-002938"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-068",
+    "title": "安全测试报告案例68",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002378",
+      "se-q-003201",
+      "se-q-000105"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-069",
+    "title": "应急响应案例69",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002088",
+      "se-q-001589",
+      "se-q-003680"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-070",
+    "title": "后端安全加固案例70",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001407",
+      "se-q-003695",
+      "se-q-001995"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-071",
+    "title": "安全组配置案例71",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001779",
+      "se-q-002128",
+      "se-q-003464"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-072",
+    "title": "安全面试案例72",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000861",
+      "se-q-000847",
+      "se-q-000911"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-073",
+    "title": "密码存储修复案例73",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001151",
+      "se-q-002252",
+      "se-q-001881"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-074",
+    "title": "登录限流案例74",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001416",
+      "se-q-002035",
+      "se-q-001168"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-075",
+    "title": "JWT安全案例75",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000413",
+      "se-q-003306",
+      "se-q-000801"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-076",
+    "title": "Cookie安全案例76",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002632",
+      "se-q-002069",
+      "se-q-000199"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-077",
+    "title": "SQL注入防御案例77",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002354",
+      "se-q-000461",
+      "se-q-001262"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-078",
+    "title": "XSS编码案例78",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003365",
+      "se-q-000213",
+      "se-q-000114"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-079",
+    "title": "CSRF Token案例79",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003533",
+      "se-q-002029",
+      "se-q-002409"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-080",
+    "title": "文件上传防御案例80",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "easy",
+    "duration": 30,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003535",
+      "se-q-000158",
+      "se-q-003292"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-081",
+    "title": "路径遍历防御案例81",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002886",
+      "se-q-000980",
+      "se-q-001940"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-082",
+    "title": "权限校验案例82",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001406",
+      "se-q-001510",
+      "se-q-001487"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-083",
+    "title": "接口鉴权案例83",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003168",
+      "se-q-001769",
+      "se-q-001160"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-084",
+    "title": "日志审计案例84",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001318",
+      "se-q-001640",
+      "se-q-002036"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-085",
+    "title": "依赖漏洞案例85",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003173",
+      "se-q-001554",
+      "se-q-001639"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-086",
+    "title": "安全测试报告案例86",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002629",
+      "se-q-003332",
+      "se-q-002429"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-087",
+    "title": "应急响应案例87",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002155",
+      "se-q-002874",
+      "se-q-002413"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-088",
+    "title": "后端安全加固案例88",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000491",
+      "se-q-003492",
+      "se-q-000921"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-089",
+    "title": "安全组配置案例89",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003595",
+      "se-q-000017",
+      "se-q-003238"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-090",
+    "title": "安全面试案例90",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000131",
+      "se-q-002177",
+      "se-q-000880"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-091",
+    "title": "密码存储修复案例91",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000916",
+      "se-q-000961",
+      "se-q-000808"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-092",
+    "title": "登录限流案例92",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003373",
+      "se-q-001219",
+      "se-q-002440"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-093",
+    "title": "JWT安全案例93",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001147",
+      "se-q-001089",
+      "se-q-003544"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-094",
+    "title": "Cookie安全案例94",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003602",
+      "se-q-002854",
+      "se-q-001094"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-095",
+    "title": "SQL注入防御案例95",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001933",
+      "se-q-000953",
+      "se-q-000350"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-096",
+    "title": "XSS编码案例96",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003337",
+      "se-q-002632",
+      "se-q-001581"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-097",
+    "title": "CSRF Token案例97",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000199",
+      "se-q-003209",
+      "se-q-003566"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-098",
+    "title": "文件上传防御案例98",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000956",
+      "se-q-002659",
+      "se-q-003336"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-099",
+    "title": "路径遍历防御案例99",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000899",
+      "se-q-001297",
+      "se-q-000218"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-100",
+    "title": "权限校验案例100",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003504",
+      "se-q-001345",
+      "se-q-002806"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-101",
+    "title": "接口鉴权案例101",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001592",
+      "se-q-000140",
+      "se-q-002306"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-102",
+    "title": "日志审计案例102",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001047",
+      "se-q-000630",
+      "se-q-002726"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-103",
+    "title": "依赖漏洞案例103",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002250",
+      "se-q-002929",
+      "se-q-000318"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-104",
+    "title": "安全测试报告案例104",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002721",
+      "se-q-001615",
+      "se-q-000515"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-105",
+    "title": "应急响应案例105",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001914",
+      "se-q-003503",
+      "se-q-001680"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-106",
+    "title": "后端安全加固案例106",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002555",
+      "se-q-001898",
+      "se-q-002349"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-107",
+    "title": "安全组配置案例107",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002484",
+      "se-q-001530",
+      "se-q-000844"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-108",
+    "title": "安全面试案例108",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001257",
+      "se-q-003262",
+      "se-q-000242"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-109",
+    "title": "密码存储修复案例109",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001650",
+      "se-q-001249",
+      "se-q-001044"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-110",
+    "title": "登录限流案例110",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001524",
+      "se-q-002784",
+      "se-q-003540"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-111",
+    "title": "JWT安全案例111",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000313",
+      "se-q-002488",
+      "se-q-002951"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-112",
+    "title": "Cookie安全案例112",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003623",
+      "se-q-002657",
+      "se-q-001037"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-113",
+    "title": "SQL注入防御案例113",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002855",
+      "se-q-002462",
+      "se-q-000152"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-114",
+    "title": "XSS编码案例114",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001657",
+      "se-q-001191",
+      "se-q-002703"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-115",
+    "title": "CSRF Token案例115",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001645",
+      "se-q-002137",
+      "se-q-002516"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-116",
+    "title": "文件上传防御案例116",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002059",
+      "se-q-003648",
+      "se-q-002102"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-117",
+    "title": "路径遍历防御案例117",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000024",
+      "se-q-000813",
+      "se-q-001270"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-118",
+    "title": "权限校验案例118",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001740",
+      "se-q-001678",
+      "se-q-002681"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-119",
+    "title": "接口鉴权案例119",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001098",
+      "se-q-002577",
+      "se-q-001402"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-120",
+    "title": "日志审计案例120",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001394",
+      "se-q-000331",
+      "se-q-000462"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-121",
+    "title": "依赖漏洞案例121",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002395",
+      "se-q-000918",
+      "se-q-002436"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-122",
+    "title": "安全测试报告案例122",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001728",
+      "se-q-000916",
+      "se-q-001458"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-123",
+    "title": "应急响应案例123",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001377",
+      "se-q-002449",
+      "se-q-003070"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-124",
+    "title": "后端安全加固案例124",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000513",
+      "se-q-000570",
+      "se-q-001797"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-125",
+    "title": "安全组配置案例125",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002343",
+      "se-q-000236",
+      "se-q-000777"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-126",
+    "title": "安全面试案例126",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001137",
+      "se-q-003078",
+      "se-q-003213"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-127",
+    "title": "密码存储修复案例127",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001590",
+      "se-q-000136",
+      "se-q-000642"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-128",
+    "title": "登录限流案例128",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000691",
+      "se-q-000720",
+      "se-q-001562"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-129",
+    "title": "JWT安全案例129",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001350",
+      "se-q-000124",
+      "se-q-003101"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-130",
+    "title": "Cookie安全案例130",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001130",
+      "se-q-001494",
+      "se-q-002090"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-131",
+    "title": "SQL注入防御案例131",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003588",
+      "se-q-002062",
+      "se-q-002184"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-132",
+    "title": "XSS编码案例132",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000939",
+      "se-q-000514",
+      "se-q-003224"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-133",
+    "title": "CSRF Token案例133",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000248",
+      "se-q-000697",
+      "se-q-003469"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-134",
+    "title": "文件上传防御案例134",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002802",
+      "se-q-001902",
+      "se-q-001900"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-135",
+    "title": "路径遍历防御案例135",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000889",
+      "se-q-002437",
+      "se-q-001794"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-136",
+    "title": "权限校验案例136",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002630",
+      "se-q-003076",
+      "se-q-000678"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-137",
+    "title": "接口鉴权案例137",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001220",
+      "se-q-000790",
+      "se-q-002039"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-138",
+    "title": "日志审计案例138",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002880",
+      "se-q-000039",
+      "se-q-000049"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-139",
+    "title": "依赖漏洞案例139",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003604",
+      "se-q-002240",
+      "se-q-001088"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-140",
+    "title": "安全测试报告案例140",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002430",
+      "se-q-002719",
+      "se-q-000329"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-141",
+    "title": "应急响应案例141",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002539",
+      "se-q-002449",
+      "se-q-002704"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-142",
+    "title": "后端安全加固案例142",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001669",
+      "se-q-000641",
+      "se-q-000858"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-143",
+    "title": "安全组配置案例143",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002682",
+      "se-q-000707",
+      "se-q-001061"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-144",
+    "title": "安全面试案例144",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002756",
+      "se-q-003536",
+      "se-q-001342"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-145",
+    "title": "密码存储修复案例145",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001686",
+      "se-q-003221",
+      "se-q-002222"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-146",
+    "title": "登录限流案例146",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000232",
+      "se-q-000356",
+      "se-q-002826"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-147",
+    "title": "JWT安全案例147",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001752",
+      "se-q-003102",
+      "se-q-001509"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-148",
+    "title": "Cookie安全案例148",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002905",
+      "se-q-001212",
+      "se-q-000886"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-149",
+    "title": "SQL注入防御案例149",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001103",
+      "se-q-002732",
+      "se-q-000713"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-150",
+    "title": "XSS编码案例150",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003288",
+      "se-q-000820",
+      "se-q-002973"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-151",
+    "title": "CSRF Token案例151",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001291",
+      "se-q-000691",
+      "se-q-002697"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-152",
+    "title": "文件上传防御案例152",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000656",
+      "se-q-002723",
+      "se-q-003151"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-153",
+    "title": "路径遍历防御案例153",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002324",
+      "se-q-001576",
+      "se-q-001063"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-154",
+    "title": "权限校验案例154",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003347",
+      "se-q-002886",
+      "se-q-003142"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-155",
+    "title": "接口鉴权案例155",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003129",
+      "se-q-000464",
+      "se-q-002318"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-156",
+    "title": "日志审计案例156",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000720",
+      "se-q-002145",
+      "se-q-002341"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-157",
+    "title": "依赖漏洞案例157",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003259",
+      "se-q-002779",
+      "se-q-001151"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-158",
+    "title": "安全测试报告案例158",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002050",
+      "se-q-000216",
+      "se-q-002795"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-159",
+    "title": "应急响应案例159",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000129",
+      "se-q-000238",
+      "se-q-000703"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-160",
+    "title": "后端安全加固案例160",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "medium",
+    "duration": 45,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000749",
+      "se-q-000843",
+      "se-q-003453"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-161",
+    "title": "安全组配置案例161",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002178",
+      "se-q-003393",
+      "se-q-002138"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-162",
+    "title": "安全面试案例162",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002654",
+      "se-q-001416",
+      "se-q-000534"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-163",
+    "title": "密码存储修复案例163",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002934",
+      "se-q-001626",
+      "se-q-003399"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-164",
+    "title": "登录限流案例164",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001288",
+      "se-q-001347",
+      "se-q-000998"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-165",
+    "title": "JWT安全案例165",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002909",
+      "se-q-002681",
+      "se-q-003338"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-166",
+    "title": "Cookie安全案例166",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002331",
+      "se-q-001733",
+      "se-q-003672"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-167",
+    "title": "SQL注入防御案例167",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000839",
+      "se-q-002751",
+      "se-q-002731"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-168",
+    "title": "XSS编码案例168",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002430",
+      "se-q-002848",
+      "se-q-001457"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-169",
+    "title": "CSRF Token案例169",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003246",
+      "se-q-002295",
+      "se-q-002674"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-170",
+    "title": "文件上传防御案例170",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002162",
+      "se-q-002466",
+      "se-q-000353"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-171",
+    "title": "路径遍历防御案例171",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000618",
+      "se-q-001385",
+      "se-q-002031"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-172",
+    "title": "权限校验案例172",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001249",
+      "se-q-000744",
+      "se-q-002815"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-173",
+    "title": "接口鉴权案例173",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001052",
+      "se-q-001936",
+      "se-q-000073"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-174",
+    "title": "日志审计案例174",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000291",
+      "se-q-001147",
+      "se-q-000431"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-175",
+    "title": "依赖漏洞案例175",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003447",
+      "se-q-003688",
+      "se-q-000240"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-176",
+    "title": "安全测试报告案例176",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000802",
+      "se-q-000342",
+      "se-q-002388"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-177",
+    "title": "应急响应案例177",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000657",
+      "se-q-001656",
+      "se-q-001960"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-178",
+    "title": "后端安全加固案例178",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003460",
+      "se-q-000345",
+      "se-q-000121"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-179",
+    "title": "安全组配置案例179",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001791",
+      "se-q-002739",
+      "se-q-001027"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-180",
+    "title": "安全面试案例180",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002775",
+      "se-q-000737",
+      "se-q-000687"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-181",
+    "title": "密码存储修复案例181",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003555",
+      "se-q-001344",
+      "se-q-003484"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-182",
+    "title": "登录限流案例182",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003095",
+      "se-q-000779",
+      "se-q-002188"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-183",
+    "title": "JWT安全案例183",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001987",
+      "se-q-000473",
+      "se-q-002716"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-184",
+    "title": "Cookie安全案例184",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001014",
+      "se-q-003556",
+      "se-q-000872"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-185",
+    "title": "SQL注入防御案例185",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003603",
+      "se-q-001315",
+      "se-q-001337"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-186",
+    "title": "XSS编码案例186",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003084",
+      "se-q-002367",
+      "se-q-001113"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-187",
+    "title": "CSRF Token案例187",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003532",
+      "se-q-001390",
+      "se-q-003048"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-188",
+    "title": "文件上传防御案例188",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000721",
+      "se-q-002673",
+      "se-q-000518"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-189",
+    "title": "路径遍历防御案例189",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000567",
+      "se-q-000469",
+      "se-q-001600"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-190",
+    "title": "权限校验案例190",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003654",
+      "se-q-000577",
+      "se-q-002182"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-191",
+    "title": "接口鉴权案例191",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003462",
+      "se-q-000023",
+      "se-q-003630"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-192",
+    "title": "日志审计案例192",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001386",
+      "se-q-003478",
+      "se-q-001856"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-193",
+    "title": "依赖漏洞案例193",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002856",
+      "se-q-000754",
+      "se-q-003406"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-194",
+    "title": "安全测试报告案例194",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002076",
+      "se-q-000437",
+      "se-q-001537"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-195",
+    "title": "应急响应案例195",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000825",
+      "se-q-000487",
+      "se-q-002838"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-196",
+    "title": "后端安全加固案例196",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002008",
+      "se-q-000210",
+      "se-q-002886"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-197",
+    "title": "安全组配置案例197",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000413",
+      "se-q-000240",
+      "se-q-000970"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-198",
+    "title": "安全面试案例198",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003119",
+      "se-q-000201",
+      "se-q-003691"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-199",
+    "title": "密码存储修复案例199",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002477",
+      "se-q-000151",
+      "se-q-002219"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-200",
+    "title": "登录限流案例200",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001137",
+      "se-q-002514",
+      "se-q-000027"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-201",
+    "title": "JWT安全案例201",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001834",
+      "se-q-000113",
+      "se-q-003526"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-202",
+    "title": "Cookie安全案例202",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003336",
+      "se-q-000336",
+      "se-q-002550"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-203",
+    "title": "SQL注入防御案例203",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000949",
+      "se-q-001232",
+      "se-q-001035"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-204",
+    "title": "XSS编码案例204",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001768",
+      "se-q-000916",
+      "se-q-001495"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-205",
+    "title": "CSRF Token案例205",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001174",
+      "se-q-000308",
+      "se-q-002507"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-206",
+    "title": "文件上传防御案例206",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001288",
+      "se-q-002009",
+      "se-q-000250"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-207",
+    "title": "路径遍历防御案例207",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003300",
+      "se-q-001918",
+      "se-q-001401"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-208",
+    "title": "权限校验案例208",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000511",
+      "se-q-002966",
+      "se-q-002815"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-209",
+    "title": "接口鉴权案例209",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002899",
+      "se-q-000984",
+      "se-q-003357"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-210",
+    "title": "日志审计案例210",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000510",
+      "se-q-000911",
+      "se-q-001445"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-211",
+    "title": "依赖漏洞案例211",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003364",
+      "se-q-001899",
+      "se-q-002231"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-212",
+    "title": "安全测试报告案例212",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000804",
+      "se-q-001577",
+      "se-q-002327"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-213",
+    "title": "应急响应案例213",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001042",
+      "se-q-000567",
+      "se-q-002423"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-214",
+    "title": "后端安全加固案例214",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000553",
+      "se-q-001291",
+      "se-q-000729"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-215",
+    "title": "安全组配置案例215",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000644",
+      "se-q-002071",
+      "se-q-000053"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-216",
+    "title": "安全面试案例216",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003135",
+      "se-q-000757",
+      "se-q-002454"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-217",
+    "title": "密码存储修复案例217",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001980",
+      "se-q-001778",
+      "se-q-000245"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-218",
+    "title": "登录限流案例218",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001129",
+      "se-q-000357",
+      "se-q-001821"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-219",
+    "title": "JWT安全案例219",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001514",
+      "se-q-001469",
+      "se-q-000389"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-220",
+    "title": "Cookie安全案例220",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001842",
+      "se-q-003165",
+      "se-q-001226"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-221",
+    "title": "SQL注入防御案例221",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000500",
+      "se-q-002710",
+      "se-q-002650"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-222",
+    "title": "XSS编码案例222",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003087",
+      "se-q-001906",
+      "se-q-000733"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-223",
+    "title": "CSRF Token案例223",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001340",
+      "se-q-002287",
+      "se-q-000881"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-224",
+    "title": "文件上传防御案例224",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003559",
+      "se-q-001347",
+      "se-q-001276"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-225",
+    "title": "路径遍历防御案例225",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003006",
+      "se-q-003509",
+      "se-q-001976"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-226",
+    "title": "权限校验案例226",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001716",
+      "se-q-002707",
+      "se-q-002845"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-227",
+    "title": "接口鉴权案例227",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001179",
+      "se-q-002589",
+      "se-q-000371"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-228",
+    "title": "日志审计案例228",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001167",
+      "se-q-001221",
+      "se-q-002255"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-229",
+    "title": "依赖漏洞案例229",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002828",
+      "se-q-003401",
+      "se-q-003244"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-230",
+    "title": "安全测试报告案例230",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003184",
+      "se-q-002987",
+      "se-q-002348"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-231",
+    "title": "应急响应案例231",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002375",
+      "se-q-001253",
+      "se-q-000608"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-232",
+    "title": "后端安全加固案例232",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002884",
+      "se-q-000013",
+      "se-q-000101"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-233",
+    "title": "安全组配置案例233",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003010",
+      "se-q-002843",
+      "se-q-002345"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-234",
+    "title": "安全面试案例234",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001005",
+      "se-q-002666",
+      "se-q-001234"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-235",
+    "title": "密码存储修复案例235",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001089",
+      "se-q-001976",
+      "se-q-002530"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-236",
+    "title": "登录限流案例236",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002096",
+      "se-q-002605",
+      "se-q-002521"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-237",
+    "title": "JWT安全案例237",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001284",
+      "se-q-000901",
+      "se-q-001546"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-238",
+    "title": "Cookie安全案例238",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000693",
+      "se-q-000307",
+      "se-q-001190"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-239",
+    "title": "SQL注入防御案例239",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000597",
+      "se-q-001448",
+      "se-q-000828"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-240",
+    "title": "XSS编码案例240",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000212",
+      "se-q-001953",
+      "se-q-001113"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-241",
+    "title": "CSRF Token案例241",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001817",
+      "se-q-000936",
+      "se-q-003486"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-242",
+    "title": "文件上传防御案例242",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000240",
+      "se-q-000546",
+      "se-q-003102"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-243",
+    "title": "路径遍历防御案例243",
+    "description": "通过路径遍历防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002675",
+      "se-q-002551",
+      "se-q-002181"
+    ],
+    "tags": [
+      "路径遍历防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-244",
+    "title": "权限校验案例244",
+    "description": "通过权限校验掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000295",
+      "se-q-002585",
+      "se-q-003617"
+    ],
+    "tags": [
+      "权限校验"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-245",
+    "title": "接口鉴权案例245",
+    "description": "通过接口鉴权掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001310",
+      "se-q-000083",
+      "se-q-003641"
+    ],
+    "tags": [
+      "接口鉴权"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-246",
+    "title": "日志审计案例246",
+    "description": "通过日志审计掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002901",
+      "se-q-000019",
+      "se-q-002786"
+    ],
+    "tags": [
+      "日志审计"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-247",
+    "title": "依赖漏洞案例247",
+    "description": "通过依赖漏洞掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002990",
+      "se-q-002340",
+      "se-q-000620"
+    ],
+    "tags": [
+      "依赖漏洞"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-248",
+    "title": "安全测试报告案例248",
+    "description": "通过安全测试报告掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000154",
+      "se-q-001765",
+      "se-q-000427"
+    ],
+    "tags": [
+      "安全测试报告"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-249",
+    "title": "应急响应案例249",
+    "description": "通过应急响应掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002655",
+      "se-q-000597",
+      "se-q-000885"
+    ],
+    "tags": [
+      "应急响应"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-250",
+    "title": "后端安全加固案例250",
+    "description": "通过后端安全加固掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001164",
+      "se-q-002255",
+      "se-q-003118"
+    ],
+    "tags": [
+      "后端安全加固"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-251",
+    "title": "安全组配置案例251",
+    "description": "通过安全组配置掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001243",
+      "se-q-000597",
+      "se-q-002884"
+    ],
+    "tags": [
+      "安全组配置"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-252",
+    "title": "安全面试案例252",
+    "description": "通过安全面试掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000366",
+      "se-q-001101",
+      "se-q-001644"
+    ],
+    "tags": [
+      "安全面试"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-253",
+    "title": "密码存储修复案例253",
+    "description": "通过密码存储修复掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-003070",
+      "se-q-000077",
+      "se-q-002025"
+    ],
+    "tags": [
+      "密码存储修复"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-254",
+    "title": "登录限流案例254",
+    "description": "通过登录限流掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001865",
+      "se-q-001869",
+      "se-q-000219"
+    ],
+    "tags": [
+      "登录限流"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-255",
+    "title": "JWT安全案例255",
+    "description": "通过JWT安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000376",
+      "se-q-001012",
+      "se-q-000414"
+    ],
+    "tags": [
+      "JWT安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-256",
+    "title": "Cookie安全案例256",
+    "description": "通过Cookie安全掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000436",
+      "se-q-002420",
+      "se-q-003064"
+    ],
+    "tags": [
+      "Cookie安全"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-257",
+    "title": "SQL注入防御案例257",
+    "description": "通过SQL注入防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-002237",
+      "se-q-002414",
+      "se-q-002847"
+    ],
+    "tags": [
+      "SQL注入防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-258",
+    "title": "XSS编码案例258",
+    "description": "通过XSS编码掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-001054",
+      "se-q-002447",
+      "se-q-000254"
+    ],
+    "tags": [
+      "XSS编码"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-259",
+    "title": "CSRF Token案例259",
+    "description": "通过CSRF Token掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000890",
+      "se-q-002672",
+      "se-q-002533"
+    ],
+    "tags": [
+      "CSRF Token"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  },
+  {
+    "id": "se-case-260",
+    "title": "文件上传防御案例260",
+    "description": "通过文件上传防御掌握安全",
+    "difficulty": "hard",
+    "duration": 60,
+    "steps": [
+      {
+        "order": 1,
+        "title": "漏洞分析",
+        "description": "识别"
+      },
+      {
+        "order": 2,
+        "title": "风险评估",
+        "description": "评估"
+      },
+      {
+        "order": 3,
+        "title": "修复方案",
+        "description": "修复"
+      },
+      {
+        "order": 4,
+        "title": "验证",
+        "description": "验证"
+      }
+    ],
+    "relatedQuestionIds": [
+      "se-q-000788",
+      "se-q-003511",
+      "se-q-002336"
+    ],
+    "tags": [
+      "文件上传防御"
+    ],
+    "updatedAt": "2026-07-02T00:00:00.000Z"
+  }
+]

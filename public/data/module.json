@@ -1,0 +1,41 @@
+{
+  "id": "mod-cybersecurity-basic",
+  "slug": "module-cybersecurity-basic",
+  "title": "网络安全与安全基础",
+  "subtitle": "面向开发者和安全入门者",
+  "description": "面向开发者和安全入门者的防御性网络安全身份认证权限控制密码学Web安全SQL注入防御XSS防御CSRF防御安全编码日志审计与安全加固训练模块。",
+  "version": "2.0.0",
+  "license": "MIT",
+  "authors": [
+    "OpenSkill Community"
+  ],
+  "tags": [
+    "网络安全",
+    "Web安全",
+    "安全编码",
+    "身份认证",
+    "权限控制",
+    "SQL注入防御",
+    "XSS防御",
+    "安全加固"
+  ],
+  "estimatedHours": 170,
+  "difficulty": "intermediate",
+  "updatedAt": "2026-07-02T12:00:00.000Z",
+  "coverEmoji": "🛡",
+  "repoUrl": "https://github.com/openskill-galaxy/module-cybersecurity-basic",
+  "portalUrl": "https://openskill-galaxy.github.io/",
+  "status": "stable",
+  "stats": {
+    "courses": 14,
+    "lessons": 182,
+    "knowledgePoints": 735,
+    "questions": 3700,
+    "cases": 260,
+    "exams": 100,
+    "routes": 35,
+    "glossary": 360,
+    "faqs": 210,
+    "tags": 128
+  }
+}
