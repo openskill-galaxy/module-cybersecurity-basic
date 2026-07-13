@@ -34,7 +34,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-001",
+      "se-lesson-002",
+      "se-lesson-003",
+      "se-lesson-004",
+      "se-lesson-005",
+      "se-lesson-006",
+      "se-lesson-007",
+      "se-lesson-008",
+      "se-lesson-009",
+      "se-lesson-010",
+      "se-lesson-011",
+      "se-lesson-012",
+      "se-lesson-013"
+    ],
+    "summary": "安全定义、CIA、威胁模型、安全伦理。"
   },
   {
     "id": "se-course-02",
@@ -71,7 +87,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-014",
+      "se-lesson-015",
+      "se-lesson-016",
+      "se-lesson-017",
+      "se-lesson-018",
+      "se-lesson-019",
+      "se-lesson-020",
+      "se-lesson-021",
+      "se-lesson-022",
+      "se-lesson-023",
+      "se-lesson-024",
+      "se-lesson-025",
+      "se-lesson-026"
+    ],
+    "summary": "攻击面、威胁建模、风险分析、安全策略。"
   },
   {
     "id": "se-course-03",
@@ -108,7 +140,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-027",
+      "se-lesson-028",
+      "se-lesson-029",
+      "se-lesson-030",
+      "se-lesson-031",
+      "se-lesson-032",
+      "se-lesson-033",
+      "se-lesson-034",
+      "se-lesson-035",
+      "se-lesson-036",
+      "se-lesson-037",
+      "se-lesson-038",
+      "se-lesson-039"
+    ],
+    "summary": "认证方式、RBAC、最小权限、多因素认证。"
   },
   {
     "id": "se-course-04",
@@ -145,7 +193,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-040",
+      "se-lesson-041",
+      "se-lesson-042",
+      "se-lesson-043",
+      "se-lesson-044",
+      "se-lesson-045",
+      "se-lesson-046",
+      "se-lesson-047",
+      "se-lesson-048",
+      "se-lesson-049",
+      "se-lesson-050",
+      "se-lesson-051",
+      "se-lesson-052"
+    ],
+    "summary": "对称加密、非对称加密、哈希、密码存储。"
   },
   {
     "id": "se-course-05",
@@ -182,7 +246,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-053",
+      "se-lesson-054",
+      "se-lesson-055",
+      "se-lesson-056",
+      "se-lesson-057",
+      "se-lesson-058",
+      "se-lesson-059",
+      "se-lesson-060",
+      "se-lesson-061",
+      "se-lesson-062",
+      "se-lesson-063",
+      "se-lesson-064",
+      "se-lesson-065"
+    ],
+    "summary": "Web攻击面、浏览器安全、同源策略。"
   },
   {
     "id": "se-course-06",
@@ -219,7 +299,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-066",
+      "se-lesson-067",
+      "se-lesson-068",
+      "se-lesson-069",
+      "se-lesson-070",
+      "se-lesson-071",
+      "se-lesson-072",
+      "se-lesson-073",
+      "se-lesson-074",
+      "se-lesson-075",
+      "se-lesson-076",
+      "se-lesson-077",
+      "se-lesson-078"
+    ],
+    "summary": "SQL注入原理、参数化查询、ORM安全。"
   },
   {
     "id": "se-course-07",
@@ -256,7 +352,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-079",
+      "se-lesson-080",
+      "se-lesson-081",
+      "se-lesson-082",
+      "se-lesson-083",
+      "se-lesson-084",
+      "se-lesson-085",
+      "se-lesson-086",
+      "se-lesson-087",
+      "se-lesson-088",
+      "se-lesson-089",
+      "se-lesson-090",
+      "se-lesson-091"
+    ],
+    "summary": "XSS类型、输出编码、CSP策略。"
   },
   {
     "id": "se-course-08",
@@ -293,7 +405,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-092",
+      "se-lesson-093",
+      "se-lesson-094",
+      "se-lesson-095",
+      "se-lesson-096",
+      "se-lesson-097",
+      "se-lesson-098",
+      "se-lesson-099",
+      "se-lesson-100",
+      "se-lesson-101",
+      "se-lesson-102",
+      "se-lesson-103",
+      "se-lesson-104"
+    ],
+    "summary": "CSRF防御、SameSite、SSRF防护。"
   },
   {
     "id": "se-course-09",
@@ -330,7 +458,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-105",
+      "se-lesson-106",
+      "se-lesson-107",
+      "se-lesson-108",
+      "se-lesson-109",
+      "se-lesson-110",
+      "se-lesson-111",
+      "se-lesson-112",
+      "se-lesson-113",
+      "se-lesson-114",
+      "se-lesson-115",
+      "se-lesson-116",
+      "se-lesson-117"
+    ],
+    "summary": "文件类型校验、路径遍历防御、输入净化。"
   },
   {
     "id": "se-course-10",
@@ -367,7 +511,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-118",
+      "se-lesson-119",
+      "se-lesson-120",
+      "se-lesson-121",
+      "se-lesson-122",
+      "se-lesson-123",
+      "se-lesson-124",
+      "se-lesson-125",
+      "se-lesson-126",
+      "se-lesson-127",
+      "se-lesson-128",
+      "se-lesson-129",
+      "se-lesson-130"
+    ],
+    "summary": "Cookie安全属性、JWT安全配置、Session管理。"
   },
   {
     "id": "se-course-11",
@@ -404,7 +564,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-131",
+      "se-lesson-132",
+      "se-lesson-133",
+      "se-lesson-134",
+      "se-lesson-135",
+      "se-lesson-136",
+      "se-lesson-137",
+      "se-lesson-138",
+      "se-lesson-139",
+      "se-lesson-140",
+      "se-lesson-141",
+      "se-lesson-142",
+      "se-lesson-143"
+    ],
+    "summary": "输入校验、输出编码、安全配置、接口鉴权。"
   },
   {
     "id": "se-course-12",
@@ -441,7 +617,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-144",
+      "se-lesson-145",
+      "se-lesson-146",
+      "se-lesson-147",
+      "se-lesson-148",
+      "se-lesson-149",
+      "se-lesson-150",
+      "se-lesson-151",
+      "se-lesson-152",
+      "se-lesson-153",
+      "se-lesson-154",
+      "se-lesson-155",
+      "se-lesson-156"
+    ],
+    "summary": "日志记录、异常检测、响应流程、取证基础。"
   },
   {
     "id": "se-course-13",
@@ -478,7 +670,23 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-157",
+      "se-lesson-158",
+      "se-lesson-159",
+      "se-lesson-160",
+      "se-lesson-161",
+      "se-lesson-162",
+      "se-lesson-163",
+      "se-lesson-164",
+      "se-lesson-165",
+      "se-lesson-166",
+      "se-lesson-167",
+      "se-lesson-168",
+      "se-lesson-169"
+    ],
+    "summary": "漏洞扫描、渗透测试、安全加固、CVE管理。"
   },
   {
     "id": "se-course-14",
@@ -515,6 +723,22 @@
       "会安全编码",
       "具备安全思维"
     ],
-    "updatedAt": "2026-07-02T00:00:00.000Z"
+    "updatedAt": "2026-07-02T00:00:00.000Z",
+    "lessons": [
+      "se-lesson-170",
+      "se-lesson-171",
+      "se-lesson-172",
+      "se-lesson-173",
+      "se-lesson-174",
+      "se-lesson-175",
+      "se-lesson-176",
+      "se-lesson-177",
+      "se-lesson-178",
+      "se-lesson-179",
+      "se-lesson-180",
+      "se-lesson-181",
+      "se-lesson-182"
+    ],
+    "summary": "安全架构、面试题、安全项目实践。"
   }
 ]
