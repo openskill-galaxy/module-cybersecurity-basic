@@ -1,562 +1,81 @@
 [
   {
-    "id": "se-route-01",
-    "slug": "安全路线1",
-    "title": "安全路线1",
-    "description": "安全路线1",
-    "summary": "安全路线1",
-    "targetUser": "目标1",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
+    "id": "mod-cybersecurity-basic-route-1",
+    "slug": "professional-path",
+    "title": "网络安全与安全基础 专业级成长路线",
+    "summary": "带您由浅入深、由原理到实战系统通关 网络安全与安全基础 核心要点。",
+    "steps": [
+      {
+        "order": 1,
+        "title": "网络安全与安全基础 环境依赖搭建与运行机制",
+        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "courseId": "mod-cybersecurity-basic-c-1",
+        "lessonId": "mod-cybersecurity-basic-l-1"
+      },
+      {
+        "order": 2,
+        "title": "网络安全与安全基础 配置文件覆盖与属性解析",
+        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "courseId": "mod-cybersecurity-basic-c-1",
+        "lessonId": "mod-cybersecurity-basic-l-2"
+      },
+      {
+        "order": 3,
+        "title": "网络安全与安全基础 API 接口规范与数据通信",
+        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "courseId": "mod-cybersecurity-basic-c-2",
+        "lessonId": "mod-cybersecurity-basic-l-3"
+      },
+      {
+        "order": 4,
+        "title": "网络安全与安全基础 核心控制器与数据校验机制",
+        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "courseId": "mod-cybersecurity-basic-c-2",
+        "lessonId": "mod-cybersecurity-basic-l-4"
+      },
+      {
+        "order": 5,
+        "title": "网络安全与安全基础 缓存优化与垃圾回收调优",
+        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "courseId": "mod-cybersecurity-basic-c-3",
+        "lessonId": "mod-cybersecurity-basic-l-5"
+      },
+      {
+        "order": 6,
+        "title": "网络安全与安全基础 可观测性日志与分布式链路监控",
+        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "courseId": "mod-cybersecurity-basic-c-3",
+        "lessonId": "mod-cybersecurity-basic-l-6"
+      }
     ]
   },
   {
-    "id": "se-route-02",
-    "slug": "安全路线2",
-    "title": "安全路线2",
-    "description": "安全路线2",
-    "summary": "安全路线2",
-    "targetUser": "目标2",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-03",
-    "slug": "安全路线3",
-    "title": "安全路线3",
-    "description": "安全路线3",
-    "summary": "安全路线3",
-    "targetUser": "目标3",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-04",
-    "slug": "安全路线4",
-    "title": "安全路线4",
-    "description": "安全路线4",
-    "summary": "安全路线4",
-    "targetUser": "目标4",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-05",
-    "slug": "安全路线5",
-    "title": "安全路线5",
-    "description": "安全路线5",
-    "summary": "安全路线5",
-    "targetUser": "目标5",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-06",
-    "slug": "安全路线6",
-    "title": "安全路线6",
-    "description": "安全路线6",
-    "summary": "安全路线6",
-    "targetUser": "目标6",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-07",
-    "slug": "安全路线7",
-    "title": "安全路线7",
-    "description": "安全路线7",
-    "summary": "安全路线7",
-    "targetUser": "目标7",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-08",
-    "slug": "安全路线8",
-    "title": "安全路线8",
-    "description": "安全路线8",
-    "summary": "安全路线8",
-    "targetUser": "目标8",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-09",
-    "slug": "安全路线9",
-    "title": "安全路线9",
-    "description": "安全路线9",
-    "summary": "安全路线9",
-    "targetUser": "目标9",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-10",
-    "slug": "安全路线10",
-    "title": "安全路线10",
-    "description": "安全路线10",
-    "summary": "安全路线10",
-    "targetUser": "目标10",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-11",
-    "slug": "安全路线11",
-    "title": "安全路线11",
-    "description": "安全路线11",
-    "summary": "安全路线11",
-    "targetUser": "目标11",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-12",
-    "slug": "安全路线12",
-    "title": "安全路线12",
-    "description": "安全路线12",
-    "summary": "安全路线12",
-    "targetUser": "目标12",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-13",
-    "slug": "安全路线13",
-    "title": "安全路线13",
-    "description": "安全路线13",
-    "summary": "安全路线13",
-    "targetUser": "目标13",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-14",
-    "slug": "安全路线14",
-    "title": "安全路线14",
-    "description": "安全路线14",
-    "summary": "安全路线14",
-    "targetUser": "目标14",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-15",
-    "slug": "安全路线15",
-    "title": "安全路线15",
-    "description": "安全路线15",
-    "summary": "安全路线15",
-    "targetUser": "目标15",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-16",
-    "slug": "安全路线16",
-    "title": "安全路线16",
-    "description": "安全路线16",
-    "summary": "安全路线16",
-    "targetUser": "目标16",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-17",
-    "slug": "安全路线17",
-    "title": "安全路线17",
-    "description": "安全路线17",
-    "summary": "安全路线17",
-    "targetUser": "目标17",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-18",
-    "slug": "安全路线18",
-    "title": "安全路线18",
-    "description": "安全路线18",
-    "summary": "安全路线18",
-    "targetUser": "目标18",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-19",
-    "slug": "安全路线19",
-    "title": "安全路线19",
-    "description": "安全路线19",
-    "summary": "安全路线19",
-    "targetUser": "目标19",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-20",
-    "slug": "安全路线20",
-    "title": "安全路线20",
-    "description": "安全路线20",
-    "summary": "安全路线20",
-    "targetUser": "目标20",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-21",
-    "slug": "安全路线21",
-    "title": "安全路线21",
-    "description": "安全路线21",
-    "summary": "安全路线21",
-    "targetUser": "目标21",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-22",
-    "slug": "安全路线22",
-    "title": "安全路线22",
-    "description": "安全路线22",
-    "summary": "安全路线22",
-    "targetUser": "目标22",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-23",
-    "slug": "安全路线23",
-    "title": "安全路线23",
-    "description": "安全路线23",
-    "summary": "安全路线23",
-    "targetUser": "目标23",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-24",
-    "slug": "安全路线24",
-    "title": "安全路线24",
-    "description": "安全路线24",
-    "summary": "安全路线24",
-    "targetUser": "目标24",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-25",
-    "slug": "安全路线25",
-    "title": "安全路线25",
-    "description": "安全路线25",
-    "summary": "安全路线25",
-    "targetUser": "目标25",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-26",
-    "slug": "安全路线26",
-    "title": "安全路线26",
-    "description": "安全路线26",
-    "summary": "安全路线26",
-    "targetUser": "目标26",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-27",
-    "slug": "安全路线27",
-    "title": "安全路线27",
-    "description": "安全路线27",
-    "summary": "安全路线27",
-    "targetUser": "目标27",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-28",
-    "slug": "安全路线28",
-    "title": "安全路线28",
-    "description": "安全路线28",
-    "summary": "安全路线28",
-    "targetUser": "目标28",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-29",
-    "slug": "安全路线29",
-    "title": "安全路线29",
-    "description": "安全路线29",
-    "summary": "安全路线29",
-    "targetUser": "目标29",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-30",
-    "slug": "安全路线30",
-    "title": "安全路线30",
-    "description": "安全路线30",
-    "summary": "安全路线30",
-    "targetUser": "目标30",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-31",
-    "slug": "安全路线31",
-    "title": "安全路线31",
-    "description": "安全路线31",
-    "summary": "安全路线31",
-    "targetUser": "目标31",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-32",
-    "slug": "安全路线32",
-    "title": "安全路线32",
-    "description": "安全路线32",
-    "summary": "安全路线32",
-    "targetUser": "目标32",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-33",
-    "slug": "安全路线33",
-    "title": "安全路线33",
-    "description": "安全路线33",
-    "summary": "安全路线33",
-    "targetUser": "目标33",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-34",
-    "slug": "安全路线34",
-    "title": "安全路线34",
-    "description": "安全路线34",
-    "summary": "安全路线34",
-    "targetUser": "目标34",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
-    ]
-  },
-  {
-    "id": "se-route-35",
-    "slug": "安全路线35",
-    "title": "安全路线35",
-    "description": "安全路线35",
-    "summary": "安全路线35",
-    "targetUser": "目标35",
-    "durationDays": 5,
-    "steps": [],
-    "recommendedCourseIds": [],
-    "recommendedLessonIds": [],
-    "recommendedQuestionIds": [],
-    "outcomes": [
-      "掌握"
+    "id": "mod-cybersecurity-basic-route-2",
+    "slug": "quick-start-path",
+    "title": "网络安全与安全基础 快速通关极速路线",
+    "summary": "专为快速开发或面试突击设计的速成学习路径。",
+    "steps": [
+      {
+        "order": 1,
+        "title": "网络安全与安全基础 环境依赖搭建与运行机制",
+        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "courseId": "mod-cybersecurity-basic-c-1",
+        "lessonId": "mod-cybersecurity-basic-l-1"
+      },
+      {
+        "order": 3,
+        "title": "网络安全与安全基础 API 接口规范与数据通信",
+        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "courseId": "mod-cybersecurity-basic-c-2",
+        "lessonId": "mod-cybersecurity-basic-l-3"
+      },
+      {
+        "order": 5,
+        "title": "网络安全与安全基础 缓存优化与垃圾回收调优",
+        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "courseId": "mod-cybersecurity-basic-c-3",
+        "lessonId": "mod-cybersecurity-basic-l-5"
+      }
     ]
   }
 ]
