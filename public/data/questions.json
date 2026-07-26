@@ -1,218 +1,428 @@
 [
   {
     "id": "mod-cybersecurity-basic-q-1",
-    "slug": "question-course-1-2",
+    "slug": "question-1",
     "type": "single",
-    "stem": "在学习 [网络安全与安全基础] 的过程里，关于“网络安全与安全基础 环境依赖搭建与运行机制”的核心考点，以下表述最为准确的是？",
+    "stem": "防御 SQL 注入最根本、最推荐的手段是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "使用参数化查询（预编译语句），将 SQL 结构与数据分离"},
+      {"key": "B", "text": "在前端 JavaScript 里过滤单引号等特殊字符"},
+      {"key": "C", "text": "把数据库错误信息隐藏起来不返回给用户"},
+      {"key": "D", "text": "将所有用户输入转成大写后再拼接 SQL"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“网络安全与安全基础 环境依赖搭建与运行机制”的正确答案为 A。解析：在 网络安全与安全基础 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "网络安全与安全基础",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "answer": ["A"],
+    "explanation": "参数化查询让数据库先编译 SQL 结构，参数只作为纯数据绑定，攻击者无法改变语句语义，是根治性方案。前端过滤可被绕过（攻击者可直接发请求，B 错）；隐藏报错只是增加利用难度，属于纵深防御的辅助手段而非根本防御（C 错）；转大写不影响注入语义（D 错）。",
+    "tags": ["SQL注入", "安全编码"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-cybersecurity-basic-q-2",
-    "slug": "question-course-1-3",
+    "slug": "question-2",
     "type": "single",
-    "stem": "在学习 [网络安全与安全基础] 的过程里，关于“网络安全与安全基础 配置文件覆盖与属性解析”的核心考点，以下表述最为准确的是？",
+    "stem": "存储型 XSS 与反射型 XSS 的核心区别是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "存储型的恶意脚本被持久化保存在服务端（如数据库），后续访问者都会中招"},
+      {"key": "B", "text": "存储型只影响管理员，反射型只影响普通用户"},
+      {"key": "C", "text": "反射型必须借助 Flash 插件才能触发"},
+      {"key": "D", "text": "存储型发生在客户端，反射型发生在服务端"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“网络安全与安全基础 配置文件覆盖与属性解析”的正确答案为 A。解析：在 网络安全与安全基础 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "网络安全与安全基础",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-1",
+    "answer": ["A"],
+    "explanation": "存储型 XSS 的攻击载荷被写入数据库、评论、留言等持久化存储，任何浏览该内容的用户都会执行恶意脚本，危害面广；反射型 XSS 的载荷藏在 URL 参数中，需要诱导受害者点击特制链接，服务端把参数“反射”回页面时触发。两者与用户角色无关（B 错），都不依赖插件（C 错），D 的描述完全颠倒。",
+    "tags": ["XSS", "Web安全"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-cybersecurity-basic-q-3",
-    "slug": "question-course-2-4",
+    "slug": "question-3",
     "type": "single",
-    "stem": "在学习 [网络安全与安全基础] 的过程里，关于“网络安全与安全基础 API 接口规范与数据通信”的核心考点，以下表述最为准确的是？",
+    "stem": "CSRF（跨站请求伪造）攻击能够成功的关键前提是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "浏览器在跨站请求中会自动携带目标站点的会话 Cookie"},
+      {"key": "B", "text": "攻击者窃取到了用户的明文密码"},
+      {"key": "C", "text": "目标网站存在 SQL 注入漏洞"},
+      {"key": "D", "text": "用户的浏览器禁用了 JavaScript"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“网络安全与安全基础 API 接口规范与数据通信”的正确答案为 A。解析：在 网络安全与安全基础 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "网络安全与安全基础",
-      "基础考点"
-    ],
+    "answer": ["A"],
+    "explanation": "CSRF 利用的是浏览器对目标站点请求自动附带 Cookie 的机制：受害者已登录 A 站，访问恶意页面时被诱发向 A 站发起请求，Cookie 随请求自动带上，服务器误认为是用户本人操作。攻击者全程不需要知道密码（B 错），与 SQL 注入无关（C 错）。防御手段包括 CSRF Token、校验 Origin/Referer、SameSite Cookie 属性。",
+    "tags": ["CSRF", "Web安全"],
     "difficulty": "medium",
-    "chapter": "course-2",
+    "chapter": "mod-cybersecurity-basic-c-3",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-cybersecurity-basic-q-4",
-    "slug": "question-course-2-5",
+    "slug": "question-4",
     "type": "single",
-    "stem": "在学习 [网络安全与安全基础] 的过程里，关于“网络安全与安全基础 核心控制器与数据校验机制”的核心考点，以下表述最为准确的是？",
+    "stem": "存储用户密码时，业界推荐的正确做法是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "使用 bcrypt、Argon2 等慢哈希算法，并为每个用户加独立盐值"},
+      {"key": "B", "text": "使用 MD5 对密码做一次哈希后存储"},
+      {"key": "C", "text": "使用 AES 加密存储，密钥写在配置文件里"},
+      {"key": "D", "text": "使用全站统一的固定盐值配合 SHA-1 哈希"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“网络安全与安全基础 核心控制器与数据校验机制”的正确答案为 A。解析：在 网络安全与安全基础 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "网络安全与安全基础",
-      "基础考点"
-    ],
-    "difficulty": "medium",
-    "chapter": "course-2",
+    "answer": ["A"],
+    "explanation": "密码应使用专门设计的慢哈希/密钥拉伸算法（bcrypt、scrypt、Argon2、PBKDF2）并配合每用户随机盐，既抵抗彩虹表又大幅提高暴力破解成本。MD5、SHA-1 计算极快且已有碰撞问题，单次哈希可被 GPU 快速爆破（B、D 错）；可逆加密意味着密钥泄露即全库明文泄露，密码存储不应可逆（C 错）。",
+    "tags": ["身份认证", "密码存储"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-1",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 2
   },
   {
     "id": "mod-cybersecurity-basic-q-5",
-    "slug": "question-course-3-6",
+    "slug": "question-5",
     "type": "single",
-    "stem": "在学习 [网络安全与安全基础] 的过程里，关于“网络安全与安全基础 缓存优化与垃圾回收调优”的核心考点，以下表述最为准确的是？",
+    "stem": "HTTPS 建立连接时，非对称加密和对称加密分别承担什么角色？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "非对称加密用于握手阶段交换/协商会话密钥，对称加密用于之后的数据传输"},
+      {"key": "B", "text": "全程只使用非对称加密，保证最高安全性"},
+      {"key": "C", "text": "对称加密用于交换密钥，非对称加密用于传输数据"},
+      {"key": "D", "text": "两种加密同时对每个报文加密两次以增强强度"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“网络安全与安全基础 缓存优化与垃圾回收调优”的正确答案为 A。解析：在 网络安全与安全基础 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "网络安全与安全基础",
-      "基础考点"
-    ],
+    "answer": ["A"],
+    "explanation": "TLS 握手阶段用非对称算法（RSA 密钥交换或 ECDHE 等）安全地协商出会话密钥，同时通过证书验证服务器身份；之后的应用数据用对称算法（如 AES-GCM）加密，因为对称加密性能远高于非对称。全程非对称性能不可接受（B 错）；C 恰好说反；双重加密并非 TLS 的工作方式（D 错）。",
+    "tags": ["HTTPS", "加密"],
     "difficulty": "medium",
-    "chapter": "course-3",
+    "chapter": "mod-cybersecurity-basic-c-2",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
   },
   {
     "id": "mod-cybersecurity-basic-q-6",
-    "slug": "question-course-3-7",
+    "slug": "question-6",
     "type": "single",
-    "stem": "在学习 [网络安全与安全基础] 的过程里，关于“网络安全与安全基础 可观测性日志与分布式链路监控”的核心考点，以下表述最为准确的是？",
+    "stem": "关于 JWT（JSON Web Token）的说法，正确的是？",
     "options": [
-      {
-        "key": "A",
-        "text": "在通常场景下，该机制设计能有效规避高并发阻塞，确保操作的高可用性。"
-      },
-      {
-        "key": "B",
-        "text": "该机制主要依赖外部环境变量进行硬编码注入，缺乏高并发条件下的安全锁机制。"
-      },
-      {
-        "key": "C",
-        "text": "在运行态无法进行动态横向伸缩，属于轻量单机调试环境特有的只读过渡方案。"
-      },
-      {
-        "key": "D",
-        "text": "这是一种完全淘汰的历史过渡方案，在新版本框架下会导致无法通过静态编译器校验。"
-      }
+      {"key": "A", "text": "JWT 的 Payload 默认只做 Base64URL 编码，不应存放敏感明文信息"},
+      {"key": "B", "text": "JWT 的 Payload 是加密的，可以安全存放用户密码"},
+      {"key": "C", "text": "服务端必须在数据库中保存每个 JWT 才能完成验证"},
+      {"key": "D", "text": "JWT 一旦签发无法设置过期时间"}
     ],
-    "answer": [
-      "0"
-    ],
-    "explanation": "关于“网络安全与安全基础 可观测性日志与分布式链路监控”的正确答案为 A。解析：在 网络安全与安全基础 的设计最佳实践中，该机制不仅对运行时进行了优化，更在多核处理器并发下实现了底层的并发保护机制，属于生产环境下推荐的高性能应用模式。",
-    "tags": [
-      "网络安全与安全基础",
-      "基础考点"
-    ],
+    "answer": ["A"],
+    "explanation": "标准 JWS 形式的 JWT 三段（Header.Payload.Signature）中 Payload 只是 Base64URL 编码，任何人拿到都能解码查看，因此绝不能放密码等敏感明文（A 对、B 错）。JWT 的核心优势就是无状态验证——服务端用密钥验证签名即可，无需存库（C 错）；exp 声明就是标准的过期时间字段（D 错）。",
+    "tags": ["身份认证", "JWT"],
     "difficulty": "medium",
-    "chapter": "course-3",
+    "chapter": "mod-cybersecurity-basic-c-3",
     "knowledge_points": [],
-    "estimated_time": 5
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-7",
+    "slug": "question-7",
+    "type": "single",
+    "stem": "某接口通过 /api/orders/1002 直接访问订单，攻击者把 1002 改成 1003 就看到了他人订单。这属于哪类漏洞？",
+    "options": [
+      {"key": "A", "text": "越权访问（IDOR，不安全的直接对象引用）"},
+      {"key": "B", "text": "SQL 注入"},
+      {"key": "C", "text": "跨站脚本攻击（XSS）"},
+      {"key": "D", "text": "拒绝服务攻击（DoS）"}
+    ],
+    "answer": ["A"],
+    "explanation": "这是典型的水平越权/IDOR：接口只校验了登录态，没有校验“当前用户是否有权访问该资源”。修复方法是服务端对每次资源访问做所有权/权限校验，或使用不可预测的资源标识。它不涉及 SQL 语句注入（B 错）、脚本执行（C 错）或资源耗尽（D 错）。",
+    "tags": ["权限控制", "越权"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-8",
+    "slug": "question-8",
+    "type": "single",
+    "stem": "RBAC（基于角色的访问控制）模型的核心思想是？",
+    "options": [
+      {"key": "A", "text": "权限授予角色，用户通过被赋予角色间接获得权限"},
+      {"key": "B", "text": "把权限直接逐条分配给每一个用户"},
+      {"key": "C", "text": "根据用户的 IP 地址决定访问权限"},
+      {"key": "D", "text": "所有登录用户拥有相同权限，通过前端隐藏按钮区分"}
+    ],
+    "answer": ["A"],
+    "explanation": "RBAC 引入“角色”作为用户与权限之间的中间层：权限绑定到角色，用户被赋予角色。人员变动只需调整角色分配，权限管理复杂度从 用户×权限 降为 用户×角色 + 角色×权限。直接给用户配权限难以维护（B 错）；按 IP 控制属于网络层 ACL（C 错）；仅靠前端隐藏是伪权限控制，接口仍可被直接调用（D 错）。",
+    "tags": ["权限控制", "RBAC"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-9",
+    "slug": "question-9",
+    "type": "single",
+    "stem": "下列 HTTP 响应头中，专门用于防止页面被嵌入 iframe 从而抵御点击劫持（Clickjacking）的是？",
+    "options": [
+      {"key": "A", "text": "X-Frame-Options: DENY"},
+      {"key": "B", "text": "X-Content-Type-Options: nosniff"},
+      {"key": "C", "text": "Strict-Transport-Security: max-age=31536000"},
+      {"key": "D", "text": "Access-Control-Allow-Origin: *"}
+    ],
+    "answer": ["A"],
+    "explanation": "X-Frame-Options（DENY/SAMEORIGIN）禁止页面被 frame/iframe 嵌套，是防点击劫持的经典头部，CSP 的 frame-ancestors 指令是其现代替代。nosniff 防止浏览器 MIME 嗅探（B）；HSTS 强制浏览器使用 HTTPS（C）；CORS 头控制跨域资源共享且 * 反而是放开限制（D）。",
+    "tags": ["安全响应头", "点击劫持"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-10",
+    "slug": "question-10",
+    "type": "single",
+    "stem": "关于对称加密与非对称加密的比较，说法正确的是？",
+    "options": [
+      {"key": "A", "text": "AES 属于对称加密，加解密使用同一密钥，速度快，适合加密大量数据"},
+      {"key": "B", "text": "RSA 属于对称加密，因为它的公钥和私钥可以互换使用"},
+      {"key": "C", "text": "非对称加密的私钥可以公开分发，公钥必须保密"},
+      {"key": "D", "text": "对称加密不存在密钥分发问题"}
+    ],
+    "answer": ["A"],
+    "explanation": "AES 是典型对称算法，单密钥、性能高、适合大数据量加密（A 对）。RSA 是非对称算法，公私钥数学相关但角色不同（B 错）；非对称体系中公钥公开、私钥保密，C 说反了；对称加密最大的难题恰恰是如何安全分发共享密钥，这正是引入非对称密钥交换的原因（D 错）。",
+    "tags": ["加密", "密码学基础"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-11",
+    "slug": "question-11",
+    "type": "single",
+    "stem": "文件上传功能的安全防护中，下列哪种做法最可靠？",
+    "options": [
+      {"key": "A", "text": "服务端校验文件内容/魔数与白名单扩展名，重命名存储，且上传目录禁止脚本执行"},
+      {"key": "B", "text": "只在前端用 JavaScript 检查文件扩展名"},
+      {"key": "C", "text": "只信任请求头中的 Content-Type 判断文件类型"},
+      {"key": "D", "text": "采用黑名单方式禁止 .php 扩展名即可"}
+    ],
+    "answer": ["A"],
+    "explanation": "可靠的上传防护是组合拳：服务端做白名单扩展名 + 文件内容（魔数）校验，随机重命名去除攻击者对文件名的控制，存储目录关闭脚本执行权限（或存到对象存储/独立域名）。前端校验可被抓包绕过（B 错）；Content-Type 由客户端随意伪造（C 错）；黑名单容易被 .php5、.phtml、大小写、双扩展名等绕过（D 错）。",
+    "tags": ["文件上传", "安全加固"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-12",
+    "slug": "question-12",
+    "type": "single",
+    "stem": "SSRF（服务端请求伪造）漏洞最典型的危害是？",
+    "options": [
+      {"key": "A", "text": "借助服务器身份访问外网无法直达的内网服务或云厂商元数据接口（如 169.254.169.254）"},
+      {"key": "B", "text": "在用户浏览器中执行恶意脚本"},
+      {"key": "C", "text": "篡改数据库中的存储过程"},
+      {"key": "D", "text": "让用户在不知情时提交伪造表单"}
+    ],
+    "answer": ["A"],
+    "explanation": "SSRF 是让服务端替攻击者发请求：利用“根据用户提供的 URL 抓取资源”之类的功能，探测/访问内网服务、Redis、管理后台，甚至读取云主机元数据接口窃取临时凭证。B 是 XSS 的危害，D 是 CSRF 的场景。防御包括 URL 白名单、禁用危险协议（file://、gopher://）、对解析后的 IP 做内网地址段拦截。",
+    "tags": ["SSRF", "Web安全"],
+    "difficulty": "hard",
+    "chapter": "mod-cybersecurity-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-13",
+    "slug": "question-13",
+    "type": "single",
+    "stem": "防御 XSS 时，对用户输入内容输出到 HTML 页面的正确处理原则是？",
+    "options": [
+      {"key": "A", "text": "根据输出位置（HTML 正文、属性、JS、URL）做相应的上下文编码/转义"},
+      {"key": "B", "text": "统一把内容中的 script 关键字替换为空字符串"},
+      {"key": "C", "text": "只要网站启用了 HTTPS 就不会有 XSS"},
+      {"key": "D", "text": "所有输入一律拒绝包含 < 和 > 的内容即可万无一失"}
+    ],
+    "answer": ["A"],
+    "explanation": "XSS 防御的核心是输出编码且必须区分上下文：HTML 实体编码、属性值编码、JavaScript 字符串编码、URL 编码各不相同，用错位置仍可被绕过；同时可配合 CSP 作纵深防御。简单替换 script 可用嵌套写法（如 <scr<script>ipt>）或事件属性 onerror= 绕过（B 错）；HTTPS 只保证传输安全与 XSS 无关（C 错）；很多注入点（如属性中的引号逃逸、javascript: 伪协议）不需要尖括号（D 错）。",
+    "tags": ["XSS", "安全编码"],
+    "difficulty": "hard",
+    "chapter": "mod-cybersecurity-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 4
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-14",
+    "slug": "question-14",
+    "type": "single",
+    "stem": "Linux 服务器安全加固中，关于 SSH 服务的推荐配置是？",
+    "options": [
+      {"key": "A", "text": "禁用密码登录改用密钥认证，禁止 root 直接登录，可更换默认 22 端口"},
+      {"key": "B", "text": "开启密码登录并把密码设置为空以便运维快捷操作"},
+      {"key": "C", "text": "允许 root 用密码远程登录，方便统一管理"},
+      {"key": "D", "text": "把 SSH 端口开放给 0.0.0.0/0 且关闭日志记录以提升性能"}
+    ],
+    "answer": ["A"],
+    "explanation": "SSH 加固的标准做法：PasswordAuthentication no 改用密钥对认证杜绝暴力破解，PermitRootLogin no 强制普通用户 + sudo 提权留下审计痕迹，改端口/配合 fail2ban、防火墙限源 IP 进一步降低风险。B、C 大幅增加被爆破风险；D 既扩大暴露面又丢失审计能力，完全违背加固原则。",
+    "tags": ["安全加固", "SSH"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-15",
+    "slug": "question-15",
+    "type": "multiple",
+    "stem": "下列哪些措施能有效防御 CSRF 攻击？",
+    "options": [
+      {"key": "A", "text": "为敏感操作请求附带服务端校验的随机 CSRF Token"},
+      {"key": "B", "text": "将会话 Cookie 设置 SameSite=Lax 或 Strict 属性"},
+      {"key": "C", "text": "服务端校验请求的 Origin/Referer 头"},
+      {"key": "D", "text": "对用户输入做 HTML 实体编码"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "CSRF Token 是经典防御——攻击者跨站无法获取 Token 值（A 对）；SameSite 属性让浏览器在跨站请求中不携带 Cookie，从源头切断攻击前提（B 对）；校验 Origin/Referer 可识别请求来源站点（C 对）。HTML 实体编码是防 XSS 的输出编码手段，与 CSRF 的伪造请求机理无关（D 错）。",
+    "tags": ["CSRF", "Web安全"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-16",
+    "slug": "question-16",
+    "type": "multiple",
+    "stem": "关于登录与会话安全，下列做法正确的有哪些？",
+    "options": [
+      {"key": "A", "text": "登录失败提示统一用“用户名或密码错误”，避免泄露账号是否存在"},
+      {"key": "B", "text": "对登录接口做失败次数限制、验证码或账号锁定，防止暴力破解"},
+      {"key": "C", "text": "会话 Cookie 设置 HttpOnly 和 Secure 属性"},
+      {"key": "D", "text": "用户登录成功后继续沿用登录前的 Session ID 以保持体验流畅"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "模糊的错误提示防止账号枚举（A 对）；限流/验证码/锁定策略对抗撞库与暴力破解（B 对）；HttpOnly 阻止脚本读取 Cookie 缓解 XSS 窃取会话，Secure 保证只经 HTTPS 传输（C 对）。登录成功后必须重新生成 Session ID，否则存在会话固定（Session Fixation）攻击风险——攻击者预先植入已知会话 ID，等受害者登录后即可冒用（D 错）。",
+    "tags": ["身份认证", "会话安全"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-17",
+    "slug": "question-17",
+    "type": "multiple",
+    "stem": "以下关于常见攻击与对应防御的配对，正确的有哪些？",
+    "options": [
+      {"key": "A", "text": "SQL 注入 —— 参数化查询 + 最小权限数据库账号"},
+      {"key": "B", "text": "XSS —— 输出编码 + Content-Security-Policy"},
+      {"key": "C", "text": "暴力破解 —— 登录限流 + 多因素认证（MFA）"},
+      {"key": "D", "text": "点击劫持 —— 给 Cookie 设置 HttpOnly 属性"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "A、B、C 都是标准配对：参数化查询根治注入、低权限账号限制注入后的破坏面；输出编码与 CSP 是 XSS 的双层防御；限流与 MFA 让爆破即使猜中密码也难以登录。点击劫持的防御是 X-Frame-Options 或 CSP frame-ancestors，HttpOnly 只是防脚本读 Cookie，与 iframe 嵌套劫持无关（D 错）。",
+    "tags": ["Web安全", "综合防御"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-18",
+    "slug": "question-18",
+    "type": "multiple",
+    "stem": "关于 HTTPS 证书与信任链，下列说法正确的有哪些？",
+    "options": [
+      {"key": "A", "text": "浏览器通过内置的根 CA 证书逐级验证服务器证书签名链"},
+      {"key": "B", "text": "证书绑定域名，证书中域名与访问域名不匹配时浏览器会告警"},
+      {"key": "C", "text": "自签名证书没有可信 CA 背书，浏览器默认不信任"},
+      {"key": "D", "text": "证书过期不影响安全性，浏览器提示可放心忽略"}
+    ],
+    "answer": ["A", "B", "C"],
+    "explanation": "TLS 证书信任基于 PKI 链式验证：服务器证书由中间 CA 签发、中间 CA 由根 CA 签发，根证书预置在操作系统/浏览器信任库中（A 对）；证书的 CN/SAN 必须覆盖访问域名（B 对）；自签名证书链无法追溯到可信根，默认告警（C 对）。过期证书意味着吊销状态无法保证、私钥可能已泄露，忽略告警会让中间人攻击更易得手（D 错）。",
+    "tags": ["HTTPS", "证书"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 3
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-19",
+    "slug": "question-19",
+    "type": "judge",
+    "stem": "只要在前端页面对用户输入做了合法性校验，服务端就可以不再重复校验。",
+    "options": [],
+    "answer": ["F"],
+    "explanation": "错误。前端校验只能改善用户体验，攻击者可以绕过浏览器直接用 curl、Postman、抓包改包等方式向接口发送任意数据。安全边界必须建立在服务端：一切来自客户端的数据都不可信，服务端必须做完整的校验、鉴权和过滤。",
+    "tags": ["安全编码"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-20",
+    "slug": "question-20",
+    "type": "judge",
+    "stem": "给 Cookie 设置 HttpOnly 属性后，页面中的 JavaScript 将无法通过 document.cookie 读取该 Cookie。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。HttpOnly 使 Cookie 仅在 HTTP 请求中传输，脚本无法读取，即使页面存在 XSS 漏洞，攻击者也难以直接窃取会话 Cookie。它是缓解措施而非 XSS 根治方案——脚本仍可以受害者身份直接发请求，因此仍需输出编码与 CSP 配合。",
+    "tags": ["会话安全", "Cookie"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-21",
+    "slug": "question-21",
+    "type": "judge",
+    "stem": "最小权限原则要求：程序和账号只被授予完成其任务所必需的最小权限，例如 Web 应用连接数据库不应使用 root 账号。",
+    "options": [],
+    "answer": ["T"],
+    "explanation": "正确。最小权限原则（Principle of Least Privilege）是安全设计的基石：Web 应用的数据库账号只需业务表的增删改查权限，不应拥有 DROP、FILE、管理员等权限，这样即使发生 SQL 注入，攻击者能造成的破坏也被限制在最小范围。同理适用于进程运行账号、云 IAM 授权等场景。",
+    "tags": ["权限控制", "安全设计"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 1
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-22",
+    "slug": "question-22",
+    "type": "judge",
+    "stem": "对密码先做 MD5、再做一次 MD5（双重 MD5）就能达到与 bcrypt 相当的抗暴力破解强度。",
+    "options": [],
+    "answer": ["F"],
+    "explanation": "错误。双重 MD5 仍是极快的哈希运算，GPU 每秒可算数十亿次，多一轮只是让破解速度减半量级，毫无实质提升；而 bcrypt/Argon2 通过可调的成本因子（迭代次数、内存占用）把单次计算刻意放慢几个数量级，并内置随机盐。快哈希叠加次数无法替代专用的慢哈希算法。",
+    "tags": ["密码存储", "哈希"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-1",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-23",
+    "slug": "question-23",
+    "type": "short",
+    "stem": "攻击者在正常验证机制之外，通过程序预留的隐蔽通道绕过认证获取系统访问权，这种被植入的隐蔽通道通常称为什么？（写出术语）",
+    "options": [],
+    "answer": ["后门|后门程序|backdoor|Backdoor|WebShell|webshell"],
+    "explanation": "答案是“后门”（Backdoor）。后门可能是开发调试残留、恶意植入的隐藏账号、硬编码口令或 WebShell 等形式，绕过正常认证直达系统。防范手段包括代码审计、上线前移除调试接口、完整性校验、供应链安全审查以及对异常外联流量的监控。",
+    "tags": ["攻击类型"],
+    "difficulty": "easy",
+    "chapter": "mod-cybersecurity-basic-c-2",
+    "knowledge_points": [],
+    "estimated_time": 2
+  },
+  {
+    "id": "mod-cybersecurity-basic-q-24",
+    "slug": "question-24",
+    "type": "short",
+    "stem": "除密码之外再叠加短信验证码、TOTP 动态口令或硬件密钥等第二重验证的认证方式，称为什么认证？（写出术语）",
+    "options": [],
+    "answer": ["多因素认证|双因素认证|两步验证|MFA|2FA|多因子认证|双因子认证"],
+    "explanation": "答案是多因素认证（MFA）/双因素认证（2FA）。认证因素分三类：所知（密码）、所有（手机、硬件密钥）、所是（指纹、人脸），组合使用不同类别的因素后，即使密码泄露攻击者也难以通过第二重验证，是防撞库、防钓鱼登录的关键手段。",
+    "tags": ["身份认证", "MFA"],
+    "difficulty": "medium",
+    "chapter": "mod-cybersecurity-basic-c-3",
+    "knowledge_points": [],
+    "estimated_time": 2
   }
 ]

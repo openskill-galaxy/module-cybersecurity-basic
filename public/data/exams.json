@@ -1,31 +1,64 @@
 [
   {
     "id": "mod-cybersecurity-basic-exam-1",
-    "slug": "final-exam",
-    "title": "网络安全与安全基础 核心期末综合自测",
-    "summary": "全面检验您对 网络安全与安全基础 所有阶段知识体系的掌握程度。",
+    "slug": "basic-exam",
+    "title": "网络安全基础入门测评",
+    "summary": "覆盖 SQL 注入、XSS、密码存储与权限控制等入门必备考点的基础摸底测试。",
     "difficulty": "easy",
     "questionIds": [
       "mod-cybersecurity-basic-q-1",
       "mod-cybersecurity-basic-q-2",
-      "mod-cybersecurity-basic-q-3",
       "mod-cybersecurity-basic-q-4",
-      "mod-cybersecurity-basic-q-5",
-      "mod-cybersecurity-basic-q-6"
+      "mod-cybersecurity-basic-q-7",
+      "mod-cybersecurity-basic-q-8",
+      "mod-cybersecurity-basic-q-10",
+      "mod-cybersecurity-basic-q-19",
+      "mod-cybersecurity-basic-q-20",
+      "mod-cybersecurity-basic-q-21"
     ],
-    "timeLimitMinutes": 60,
+    "timeLimitMinutes": 15,
     "passingScore": 60
   },
   {
     "id": "mod-cybersecurity-basic-exam-2",
-    "slug": "basic-exam",
-    "title": "网络安全与安全基础 基础概念快速评估",
-    "summary": "针对核心基础概念的摸底评估，题目精炼。",
-    "difficulty": "easy",
+    "slug": "advanced-exam",
+    "title": "网络安全进阶强化测评",
+    "summary": "聚焦 CSRF 防御、HTTPS 机制、JWT、会话安全与文件上传等进阶实战考点。",
+    "difficulty": "medium",
     "questionIds": [
-      "mod-cybersecurity-basic-q-1",
-      "mod-cybersecurity-basic-q-2",
-      "mod-cybersecurity-basic-q-3"
+      "mod-cybersecurity-basic-q-3",
+      "mod-cybersecurity-basic-q-5",
+      "mod-cybersecurity-basic-q-6",
+      "mod-cybersecurity-basic-q-9",
+      "mod-cybersecurity-basic-q-11",
+      "mod-cybersecurity-basic-q-14",
+      "mod-cybersecurity-basic-q-15",
+      "mod-cybersecurity-basic-q-16",
+      "mod-cybersecurity-basic-q-22",
+      "mod-cybersecurity-basic-q-24"
+    ],
+    "timeLimitMinutes": 25,
+    "passingScore": 60
+  },
+  {
+    "id": "mod-cybersecurity-basic-exam-3",
+    "slug": "comprehensive-exam",
+    "title": "网络安全综合模拟考试",
+    "summary": "综合 SSRF、XSS 上下文编码、证书信任链与攻防配对等难点的全真模拟测试。",
+    "difficulty": "hard",
+    "questionIds": [
+      "mod-cybersecurity-basic-q-3",
+      "mod-cybersecurity-basic-q-6",
+      "mod-cybersecurity-basic-q-9",
+      "mod-cybersecurity-basic-q-11",
+      "mod-cybersecurity-basic-q-12",
+      "mod-cybersecurity-basic-q-13",
+      "mod-cybersecurity-basic-q-15",
+      "mod-cybersecurity-basic-q-17",
+      "mod-cybersecurity-basic-q-18",
+      "mod-cybersecurity-basic-q-22",
+      "mod-cybersecurity-basic-q-23",
+      "mod-cybersecurity-basic-q-24"
     ],
     "timeLimitMinutes": 30,
     "passingScore": 60
