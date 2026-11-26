@@ -1,6 +1,7 @@
 {
-  "short_name": "OpenSkill Module",
-  "name": "OpenSkill Galaxy — 学习自测模块",
+  "short_name": "网络安全与安全基础",
+  "name": "OpenSkill Galaxy — 网络安全与安全基础",
+  "description": "面向开发者和安全入门者的防御性网络安全身份认证权限控制密码学Web安全SQL注入防御XSS防御CSRF防御安全编码日志审计与安全加固训练模块。",
   "icons": [
     {
       "src": "favicon.svg",
@@ -8,9 +9,10 @@
       "sizes": "any"
     }
   ],
-  "start_url": ".",
-  "background_color": "#fbfbfd",
-  "theme_color": "#4f46e5",
+  "start_url": "/module-cybersecurity-basic/",
+  "scope": "/module-cybersecurity-basic/",
+  "background_color": "#f4f5fa",
+  "theme_color": "#3039c9",
   "display": "standalone",
   "orientation": "portrait"
 }

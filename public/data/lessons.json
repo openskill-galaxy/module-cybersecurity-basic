@@ -3,66 +3,101 @@
     "id": "mod-cybersecurity-basic-l-1",
     "courseId": "mod-cybersecurity-basic-c-1",
     "order": 1,
-    "title": "网络安全与安全基础 环境依赖搭建与运行机制",
+    "title": "密码存储与多因素认证",
     "slug": "lesson-1-1",
-    "summary": "了解平台运行依赖、环境参数配置以及本地运行引导流程。",
-    "contentMarkdown": "# 网络安全与安全基础 环境依赖搭建与运行机制\n          \n## 1. 概述与背景\n在进行 `网络安全与安全基础` 的开发实践中，`网络安全与安全基础 环境依赖搭建与运行机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 网络安全与安全基础 生产实践示例\nconsole.log(\"Initializing 网络安全与安全基础 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括身份认证、密码存储、MFA。",
+    "contentMarkdown": "## 例题1 · 密码存储\n\n存储用户密码时，业界推荐的正确做法是？\n\n- A. 使用 bcrypt、Argon2 等慢哈希算法，并为每个用户加独立盐值\n- B. 使用 MD5 对密码做一次哈希后存储\n- C. 使用 AES 加密存储，密钥写在配置文件里\n- D. 使用全站统一的固定盐值配合 SHA-1 哈希\n\n**参考答案**　A\n\n密码应使用专门设计的慢哈希/密钥拉伸算法（bcrypt、scrypt、Argon2、PBKDF2）并配合每用户随机盐，既抵抗彩虹表又大幅提高暴力破解成本。MD5、SHA-1 计算极快且已有碰撞问题，单次哈希可被 GPU 快速爆破（B、D 错）；可逆加密意味着密钥泄露即全库明文泄露，密码存储不应可逆（C 错）。\n\n## 例题2 · MFA\n\n除密码之外再叠加短信验证码、TOTP 动态口令或硬件密钥等第二重验证的认证方式，称为什么认证？（写出术语）\n\n**参考答案**　多因素认证|双因素认证|两步验证|MFA|2FA|多因子认证|双因子认证\n\n答案是多因素认证（MFA）/双因素认证（2FA）。认证因素分三类：所知（密码）、所有（手机、硬件密钥）、所是（指纹、人脸），组合使用不同类别的因素后，即使密码泄露攻击者也难以通过第二重验证，是防撞库、防钓鱼登录的关键手段。",
+    "knowledgePoints": [
+      "se-kp-0003"
+    ],
+    "estimatedMinutes": 8,
+    "practiceQuestionIds": [
+      "mod-cybersecurity-basic-q-4",
+      "mod-cybersecurity-basic-q-24"
+    ]
   },
   {
     "id": "mod-cybersecurity-basic-l-2",
     "courseId": "mod-cybersecurity-basic-c-1",
     "order": 2,
-    "title": "网络安全与安全基础 配置文件覆盖与属性解析",
+    "title": "会话凭据与 Cookie 的保护",
     "slug": "lesson-1-2",
-    "summary": "学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
-    "contentMarkdown": "# 网络安全与安全基础 配置文件覆盖与属性解析\n          \n## 1. 概述与背景\n在进行 `网络安全与安全基础` 的开发实践中，`网络安全与安全基础 配置文件覆盖与属性解析` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 网络安全与安全基础 生产实践示例\nconsole.log(\"Initializing 网络安全与安全基础 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括身份认证、会话安全、Cookie。",
+    "contentMarkdown": "## 例题1 · 会话安全\n\n关于登录与会话安全，下列做法正确的有哪些？\n\n- A. 登录失败提示统一用“用户名或密码错误”，避免泄露账号是否存在\n- B. 对登录接口做失败次数限制、验证码或账号锁定，防止暴力破解\n- C. 会话 Cookie 设置 HttpOnly 和 Secure 属性\n- D. 用户登录成功后继续沿用登录前的 Session ID 以保持体验流畅\n\n**参考答案**　A、B、C\n\n模糊的错误提示防止账号枚举（A 对）；限流/验证码/锁定策略对抗撞库与暴力破解（B 对）；HttpOnly 阻止脚本读取 Cookie 缓解 XSS 窃取会话，Secure 保证只经 HTTPS 传输（C 对）。登录成功后必须重新生成 Session ID，否则存在会话固定（Session Fixation）攻击风险——攻击者预先植入已知会话 ID，等受害者登录后即可冒用（D 错）。\n\n## 例题2 · Cookie\n\n给 Cookie 设置 HttpOnly 属性后，页面中的 JavaScript 将无法通过 document.cookie 读取该 Cookie。\n\n**参考答案**　正确\n\n正确。HttpOnly 使 Cookie 仅在 HTTP 请求中传输，脚本无法读取，即使页面存在 XSS 漏洞，攻击者也难以直接窃取会话 Cookie。它是缓解措施而非 XSS 根治方案——脚本仍可以受害者身份直接发请求，因此仍需输出编码与 CSP 配合。",
+    "knowledgePoints": [
+      "se-kp-0003",
+      "se-kp-0012"
+    ],
+    "estimatedMinutes": 8,
+    "practiceQuestionIds": [
+      "mod-cybersecurity-basic-q-16",
+      "mod-cybersecurity-basic-q-20"
+    ]
   },
   {
     "id": "mod-cybersecurity-basic-l-3",
     "courseId": "mod-cybersecurity-basic-c-2",
     "order": 1,
-    "title": "网络安全与安全基础 API 接口规范与数据通信",
+    "title": "角色授权与服务端访问控制",
     "slug": "lesson-2-1",
-    "summary": "掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
-    "contentMarkdown": "# 网络安全与安全基础 API 接口规范与数据通信\n          \n## 1. 概述与背景\n在进行 `网络安全与安全基础` 的开发实践中，`网络安全与安全基础 API 接口规范与数据通信` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 网络安全与安全基础 生产实践示例\nconsole.log(\"Initializing 网络安全与安全基础 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
+    "summary": "研习主题包括权限控制、RBAC、安全设计。",
+    "contentMarkdown": "## 例题1 · RBAC\n\nRBAC（基于角色的访问控制）模型的核心思想是？\n\n- A. 权限授予角色，用户通过被赋予角色间接获得权限\n- B. 把权限直接逐条分配给每一个用户\n- C. 根据用户的 IP 地址决定访问权限\n- D. 所有登录用户拥有相同权限，通过前端隐藏按钮区分\n\n**参考答案**　A\n\nRBAC 引入“角色”作为用户与权限之间的中间层：权限绑定到角色，用户被赋予角色。人员变动只需调整角色分配，权限管理复杂度从 用户×权限 降为 用户×角色 + 角色×权限。直接给用户配权限难以维护（B 错）；按 IP 控制属于网络层 ACL（C 错）；仅靠前端隐藏是伪权限控制，接口仍可被直接调用（D 错）。\n\n## 例题2 · 安全设计\n\n最小权限原则要求：程序和账号只被授予完成其任务所必需的最小权限，例如 Web 应用连接数据库不应使用 root 账号。\n\n**参考答案**　正确\n\n正确。最小权限原则（Principle of Least Privilege）是安全设计的基石：Web 应用的数据库账号只需业务表的增删改查权限，不应拥有 DROP、FILE、管理员等权限，这样即使发生 SQL 注入，攻击者能造成的破坏也被限制在最小范围。同理适用于进程运行账号、云 IAM 授权等场景。",
     "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "estimatedMinutes": 8,
+    "practiceQuestionIds": [
+      "mod-cybersecurity-basic-q-8",
+      "mod-cybersecurity-basic-q-21"
+    ]
   },
   {
     "id": "mod-cybersecurity-basic-l-4",
     "courseId": "mod-cybersecurity-basic-c-2",
     "order": 2,
-    "title": "网络安全与安全基础 核心控制器与数据校验机制",
+    "title": "TLS 如何验证服务端身份",
     "slug": "lesson-2-2",
-    "summary": "掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
-    "contentMarkdown": "# 网络安全与安全基础 核心控制器与数据校验机制\n          \n## 1. 概述与背景\n在进行 `网络安全与安全基础` 的开发实践中，`网络安全与安全基础 核心控制器与数据校验机制` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 网络安全与安全基础 生产实践示例\nconsole.log(\"Initializing 网络安全与安全基础 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
+    "summary": "研习主题包括HTTPS、加密、证书。",
+    "contentMarkdown": "## 例题1 · 加密\n\nHTTPS 建立连接时，非对称加密和对称加密分别承担什么角色？\n\n- A. 非对称加密用于握手阶段交换/协商会话密钥，对称加密用于之后的数据传输\n- B. 全程只使用非对称加密，保证最高安全性\n- C. 对称加密用于交换密钥，非对称加密用于传输数据\n- D. 两种加密同时对每个报文加密两次以增强强度\n\n**参考答案**　A\n\nTLS 握手阶段用非对称算法（RSA 密钥交换或 ECDHE 等）安全地协商出会话密钥，同时通过证书验证服务器身份；之后的应用数据用对称算法（如 AES-GCM）加密，因为对称加密性能远高于非对称。全程非对称性能不可接受（B 错）；C 恰好说反；双重加密并非 TLS 的工作方式（D 错）。\n\n## 例题2 · 证书\n\n关于 HTTPS 证书与信任链，下列说法正确的有哪些？\n\n- A. 浏览器通过内置的根 CA 证书逐级验证服务器证书签名链\n- B. 证书绑定域名，证书中域名与访问域名不匹配时浏览器会告警\n- C. 自签名证书没有可信 CA 背书，浏览器默认不信任\n- D. 证书过期不影响安全性，浏览器提示可放心忽略\n\n**参考答案**　A、B、C\n\n浏览器校验证书链、访问域名与证书有效期。签名链必须通向本机信任的根证书，访问的主机名必须与证书中的域名匹配。有效期之外的证书应更新，不能以忽略警告替代验证。",
     "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-cybersecurity-basic-q-5",
+      "mod-cybersecurity-basic-q-18"
+    ]
   },
   {
     "id": "mod-cybersecurity-basic-l-5",
     "courseId": "mod-cybersecurity-basic-c-3",
     "order": 1,
-    "title": "网络安全与安全基础 缓存优化与垃圾回收调优",
+    "title": "保护数据库查询与输出编码",
     "slug": "lesson-3-1",
-    "summary": "定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
-    "contentMarkdown": "# 网络安全与安全基础 缓存优化与垃圾回收调优\n          \n## 1. 概述与背景\n在进行 `网络安全与安全基础` 的开发实践中，`网络安全与安全基础 缓存优化与垃圾回收调优` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 网络安全与安全基础 生产实践示例\nconsole.log(\"Initializing 网络安全与安全基础 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括SQL注入、安全编码、XSS。",
+    "contentMarkdown": "## 例题1 · 安全编码\n\n防御 SQL 注入最根本、最推荐的手段是？\n\n- A. 使用参数化查询（预编译语句），将 SQL 结构与数据分离\n- B. 在前端 JavaScript 里过滤单引号等特殊字符\n- C. 把数据库错误信息隐藏起来不返回给用户\n- D. 将所有用户输入转成大写后再拼接 SQL\n\n**参考答案**　A\n\n参数化查询让数据库先编译 SQL 结构，参数只作为纯数据绑定，攻击者无法改变语句语义，是根治性方案。前端过滤可被绕过（攻击者可直接发请求，B 错）；隐藏报错只是增加利用难度，属于纵深防御的辅助手段而非根本防御（C 错）；转大写不影响注入语义（D 错）。\n\n## 例题2 · 安全编码\n\n防御 XSS 时，对用户输入内容输出到 HTML 页面的正确处理原则是？\n\n- A. 根据输出位置（HTML 正文、属性、JS、URL）做相应的上下文编码/转义\n- B. 统一把内容中的 script 关键字替换为空字符串\n- C. 只要网站启用了 HTTPS 就不会有 XSS\n- D. 所有输入一律拒绝包含 < 和 > 的内容即可万无一失\n\n**参考答案**　A\n\n页面正文、属性、脚本和 URL 采用不同的解析规则。显示普通文本时使用框架的默认转义或 textContent。确需接收富文本时采用经过维护的 HTML 清理器，并限制允许的元素和属性。HTTPS 保护传输，CSP 可作为额外保护。",
+    "knowledgePoints": [
+      "se-kp-0006",
+      "se-kp-0013",
+      "se-kp-0007"
+    ],
+    "estimatedMinutes": 12,
+    "practiceQuestionIds": [
+      "mod-cybersecurity-basic-q-1",
+      "mod-cybersecurity-basic-q-13"
+    ]
   },
   {
     "id": "mod-cybersecurity-basic-l-6",
     "courseId": "mod-cybersecurity-basic-c-3",
     "order": 2,
-    "title": "网络安全与安全基础 可观测性日志与分布式链路监控",
+    "title": "文件上传与 SSH 服务加固",
     "slug": "lesson-3-2",
-    "summary": "配置全局日志收集管道，分析高负载服务下的运行指标波动。",
-    "contentMarkdown": "# 网络安全与安全基础 可观测性日志与分布式链路监控\n          \n## 1. 概述与背景\n在进行 `网络安全与安全基础` 的开发实践中，`网络安全与安全基础 可观测性日志与分布式链路监控` 扮演着非常关键的底层支柱角色。本章节将重点解构其核心运行逻辑。\n\n> [!NOTE]\n> 实践本章前，请确保您的本地运行时版本满足模块要求的最新 LTS 标准。\n\n## 2. 核心原理与拓扑图\n其运作逻辑可以用以下三个层级来描述：\n1. **输入解析层**：捕获客户端请求参数，进行类型预校验。\n2. **处理调度层**：基于核心哈希分配算法定位工作节点，防范并发冲突。\n3. **输出回调层**：完成结果状态原子提交，清空缓存生命周期。\n\n## 3. 代码演练与实战演示\n以下是用于处理该模块逻辑的核心配置或执行程序：\n\n```javascript\n// 网络安全与安全基础 生产实践示例\nconsole.log(\"Initializing 网络安全与安全基础 engine...\");\nconst stats = runDiagnosis();\nconsole.log(`Diagnosis completed: ${JSON.stringify(stats)}\\n`);\n```\n\n## 4. 最佳实践避坑指南\n- 务必避免在高并发主循环中进行同步 IO 操作，容易导致 CPU 级死锁。\n- 始终为临时运行缓存设置合理的最大生命周期过期限制（TTL），防止内存泄露。\n",
-    "knowledgePoints": [],
-    "estimatedMinutes": 20
+    "summary": "研习主题包括文件上传、安全加固、SSH。",
+    "contentMarkdown": "## 例题1 · 安全加固\n\n文件上传功能的安全防护中，下列哪种做法最可靠？\n\n- A. 服务端校验文件内容/魔数与白名单扩展名，重命名存储，且上传目录禁止脚本执行\n- B. 只在前端用 JavaScript 检查文件扩展名\n- C. 只信任请求头中的 Content-Type 判断文件类型\n- D. 采用黑名单方式禁止 .php 扩展名即可\n\n**参考答案**　A\n\n校验必须在服务器执行。限制准许的类型与大小，检查实际文件内容，生成新的存储名，并隔离上传目录的执行权限。客户端提交的文件名和类型只能作为提示。\n\n## 例题2 · SSH\n\nLinux 服务器安全加固中，关于 SSH 服务的推荐配置是？\n\n- A. 禁用密码登录改用密钥认证，禁止 root 直接登录，可更换默认 22 端口\n- B. 开启密码登录并把密码设置为空以便运维快捷操作\n- C. 允许 root 用密码远程登录，方便统一管理\n- D. 把 SSH 端口开放给 0.0.0.0/0 且关闭日志记录以提升性能\n\n**参考答案**　A\n\nSSH 加固的标准做法：PasswordAuthentication no 改用密钥对认证杜绝暴力破解，PermitRootLogin no 强制普通用户 + sudo 提权留下审计痕迹，改端口/配合 fail2ban、防火墙限源 IP 进一步降低风险。B、C 大幅增加被爆破风险；D 既扩大暴露面又丢失审计能力，完全违背加固原则。",
+    "knowledgePoints": [
+      "se-kp-0010"
+    ],
+    "estimatedMinutes": 10,
+    "practiceQuestionIds": [
+      "mod-cybersecurity-basic-q-11",
+      "mod-cybersecurity-basic-q-14"
+    ]
   }
 ]

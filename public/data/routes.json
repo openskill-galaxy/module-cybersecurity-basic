@@ -7,43 +7,43 @@
     "steps": [
       {
         "order": 1,
-        "title": "网络安全与安全基础 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "密码存储与多因素认证",
+        "description": "研习主题包括身份认证、密码存储、MFA。",
         "courseId": "mod-cybersecurity-basic-c-1",
         "lessonId": "mod-cybersecurity-basic-l-1"
       },
       {
         "order": 2,
-        "title": "网络安全与安全基础 配置文件覆盖与属性解析",
-        "description": "学习课时: 学习多环境配置管理，利用环境变量覆盖规则进行定制开发。",
+        "title": "会话凭据与 Cookie 的保护",
+        "description": "研习主题包括身份认证、会话安全、Cookie。",
         "courseId": "mod-cybersecurity-basic-c-1",
         "lessonId": "mod-cybersecurity-basic-l-2"
       },
       {
         "order": 3,
-        "title": "网络安全与安全基础 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "角色授权与服务端访问控制",
+        "description": "研习主题包括权限控制、RBAC、安全设计。",
         "courseId": "mod-cybersecurity-basic-c-2",
         "lessonId": "mod-cybersecurity-basic-l-3"
       },
       {
         "order": 4,
-        "title": "网络安全与安全基础 核心控制器与数据校验机制",
-        "description": "学习课时: 掌握核心控制器的异常处理、拦截器配置与入参格式合法性检查。",
+        "title": "TLS 如何验证服务端身份",
+        "description": "研习主题包括HTTPS、加密、证书。",
         "courseId": "mod-cybersecurity-basic-c-2",
         "lessonId": "mod-cybersecurity-basic-l-4"
       },
       {
         "order": 5,
-        "title": "网络安全与安全基础 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "保护数据库查询与输出编码",
+        "description": "研习主题包括SQL注入、安全编码、XSS。",
         "courseId": "mod-cybersecurity-basic-c-3",
         "lessonId": "mod-cybersecurity-basic-l-5"
       },
       {
         "order": 6,
-        "title": "网络安全与安全基础 可观测性日志与分布式链路监控",
-        "description": "学习课时: 配置全局日志收集管道，分析高负载服务下的运行指标波动。",
+        "title": "文件上传与 SSH 服务加固",
+        "description": "研习主题包括文件上传、安全加固、SSH。",
         "courseId": "mod-cybersecurity-basic-c-3",
         "lessonId": "mod-cybersecurity-basic-l-6"
       }
@@ -57,22 +57,22 @@
     "steps": [
       {
         "order": 1,
-        "title": "网络安全与安全基础 环境依赖搭建与运行机制",
-        "description": "学习课时: 了解平台运行依赖、环境参数配置以及本地运行引导流程。",
+        "title": "密码存储与多因素认证",
+        "description": "研习主题包括身份认证、密码存储、MFA。",
         "courseId": "mod-cybersecurity-basic-c-1",
         "lessonId": "mod-cybersecurity-basic-l-1"
       },
       {
         "order": 3,
-        "title": "网络安全与安全基础 API 接口规范与数据通信",
-        "description": "学习课时: 掌握高性能交互接口设计，实现模块间高效、轻量的数据传输。",
+        "title": "角色授权与服务端访问控制",
+        "description": "研习主题包括权限控制、RBAC、安全设计。",
         "courseId": "mod-cybersecurity-basic-c-2",
         "lessonId": "mod-cybersecurity-basic-l-3"
       },
       {
         "order": 5,
-        "title": "网络安全与安全基础 缓存优化与垃圾回收调优",
-        "description": "学习课时: 定位运行时的内存与缓存瓶颈，学习垃圾回收算法调优实践。",
+        "title": "保护数据库查询与输出编码",
+        "description": "研习主题包括SQL注入、安全编码、XSS。",
         "courseId": "mod-cybersecurity-basic-c-3",
         "lessonId": "mod-cybersecurity-basic-l-5"
       }
